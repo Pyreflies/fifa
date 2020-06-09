@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Animated Login Form</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>UFABET19</title>
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+	<link rel="stylesheet" type="text/css" href="css/loding.css">
 	<link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Mitr:wght@400&display=swap" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/a81368914c.js"></script>
+
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
+
 <?php
+
 function file_get_contents_curl($url)
 {
     $ch = curl_init();
@@ -32,7 +36,8 @@ $__VIEWSTATE = $doc->getElementById('__VIEWSTATE')->getAttribute('value');
 $__VIEWSTATEGENERATOR = $doc->getElementById('__VIEWSTATEGENERATOR')->getAttribute('value');
 
 ?>
-    <script charset="utf-8" src="login.js"></script>
+
+	
 	<img class="wave" src="img/wave.png">
 	<div class="container">
 		<div class="img">
@@ -67,10 +72,12 @@ $__VIEWSTATEGENERATOR = $doc->getElementById('__VIEWSTATEGENERATOR')->getAttribu
             	<a class="fog" href="#">Forgot Password?</a>
 				<a class="btn" id="btnLogin" href="javascript:__doPostBack('btnLogin','')">
 					login </a>
+					
             </form>
         </div>
     </div>
-	<script type="text/javascript" src="login.js"></script>
+	<script charset="utf-8" src="js/login.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
+
 </body>
 </html>
